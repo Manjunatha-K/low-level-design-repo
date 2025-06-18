@@ -3,14 +3,14 @@ package com.lld.LowLevelDesign.SOLID;
 public class OpenForExtensionAndClosedForModification {
 }
 
-class SaveToDB {
+class SaveToDatabase {
     private Invoice invoice;
 
-    public SaveToDB(Invoice invoice) {
+    public SaveToDatabase(Invoice invoice) {
         this.invoice = invoice;
     }
 
-    public void SaveToDBImpl() {
+    public void SaveToDatabaseImpl() {
         //Implementation of Saving to DB logic
     }
 }
