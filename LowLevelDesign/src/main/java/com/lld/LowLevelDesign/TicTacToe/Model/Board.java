@@ -41,7 +41,7 @@ public class Board {
                 if (board[i][j] != null) {
                     System.out.print(board[i][j].pieceType.name()+" ");
                 }else {
-                    System.out.print(" ");
+                    System.out.print("  ");
                 }
                 System.out.print(" | ");
             }

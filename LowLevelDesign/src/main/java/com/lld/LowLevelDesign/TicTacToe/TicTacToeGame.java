@@ -55,7 +55,7 @@ public class TicTacToeGame {
             players.addLast(playerTurn);
 
             boolean winner = isThereWinner(inputRow,inputColumn,playerTurn.playingPiece.pieceType);
-
+gameBoard.printBoard();
             if(winner){
                 return playerTurn.name;
             }
